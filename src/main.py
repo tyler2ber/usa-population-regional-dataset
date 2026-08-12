@@ -103,19 +103,28 @@ df_regions_coastal_custom.loc[len(df_regions_coastal_custom)] = ["West Coast", r
 # print
 print(f"{df_regions_coastal_custom.head()}\n")
 
-# USA POPULATION: REGIONAL
-print("\n====> USA-POPULATION-REGIONAL dataset\n")
-# todo: top 5 most / top 5 least
+# USA-POPULATION-REGIONAL dataset
+print("====> USA-POPULATION-REGIONAL dataset\n")
 
-# USA POPULATION: STATES
+print("top 5 most populated regions(coastal)")
+print(f"{df_regions_coastal.sort_values(by='Population', ascending=False).head()}\n")
+
+print("top 5 least populated regions(coastal)")
+print(f"{df_regions_coastal.sort_values(by='Population').head()}\n")
+
+print("top 5 most populated regions(coastal)[custom]")
+print(f"{df_regions_coastal_custom.sort_values(by='Population', ascending=False).head()}\n")
+
+print("top 5 least populated regions(coastal)[custom]")
+print(f"{df_regions_coastal_custom.sort_values(by='Population').head()}\n")
+
+# USA-POPULATION-STATES dataset
 print("====> USA-POPULATION-STATES dataset\n")
 
 # top 5 most populated
 print("top 5 most populated states")
-print(df_states.sort_values(by="Population", ascending=False).head())
+print(f"{df_states.sort_values(by='Population', ascending=False).head()}\n")
 
 # top 5 least populated
-print("\ntop 5 least populated states")
-print(df_states.sort_values(by="Population").head())
-
-print("") # lul
+print("top 5 least populated states")
+print(f"{df_states.sort_values(by='Population').head()}\n")
