@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_states = pd.read_csv("dataset/usa-population-states-2020.csv")
+df_states = pd.read_csv("dataset/usa-population-states.csv")
 
 # CREATE df_regions_coastal
 df_regions_coastal = pd.DataFrame(columns=["Region(coastal)", "Population"]).astype({"Region(coastal)": "string", "Population": "int64"})
@@ -60,8 +60,9 @@ row_westcoast = df_states.loc[df_states["State"].isin(
 ), "Population"].sum()
 df_regions_coastal.loc[len(df_regions_coastal)] = ["West Coast", row_westcoast]
 
-# print
+# print and create
 print(f"\n{df_regions_coastal.head()}\n")
+df_regions_coastal.to_csv("dataset/usa-population-regions-coastal.csv", index=False)
 
 # CREATE df_regions_coastal_custom
 df_regions_coastal_custom = pd.DataFrame(columns=["Region(coastal)[custom]", "Population"]).astype({"Region(coastal)[custom]": "string", "Population": "int64"})
@@ -100,8 +101,9 @@ df_regions_coastal_custom.loc[len(df_regions_coastal_custom)] = ["Great Lakes", 
 df_regions_coastal_custom.loc[len(df_regions_coastal_custom)] = ["Gulf Coast", row_gulfcoast]
 df_regions_coastal_custom.loc[len(df_regions_coastal_custom)] = ["West Coast", row_westcoast]
 
-# print
+# print and create
 print(f"{df_regions_coastal_custom.head()}\n")
+df_regions_coastal_custom.to_csv("dataset/usa-population-regions-coastal-custom.csv", index=False)
 
 # USA-POPULATION-REGIONAL dataset
 print("====> USA-POPULATION-REGIONAL dataset\n")
