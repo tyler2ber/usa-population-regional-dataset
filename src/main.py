@@ -3,7 +3,17 @@ import pandas as pd
 df_states = pd.read_csv("dataset/usa-population-states.csv")
 
 # CREATE df_regions_coastal
-df_regions_coastal = pd.DataFrame(columns=["Region(coastal)", "Population"]).astype({"Region(coastal)": "string", "Population": "int64"})
+df_regions_coastal = pd.DataFrame(columns=
+    [
+        "Region(coastal)",
+        "Population"
+    ]
+).astype(
+    {
+        "Region(coastal)": "string",
+        "Population": "int64"
+    }
+)
 
 # rows for df_regions_coastal
 row_eastcoast = df_states.loc[df_states["State"].isin(
@@ -65,7 +75,17 @@ print(f"\n{df_regions_coastal.head()}\n")
 df_regions_coastal.to_csv("dataset/usa-population-regions-coastal.csv", index=False)
 
 # CREATE df_regions_coastal_custom
-df_regions_coastal_custom = pd.DataFrame(columns=["Region(coastal)[custom]", "Population"]).astype({"Region(coastal)[custom]": "string", "Population": "int64"})
+df_regions_coastal_custom = pd.DataFrame(columns=
+    [
+        "Region(coastal)[custom]",
+        "Population"
+    ]
+).astype(
+    {
+        "Region(coastal)[custom]": "string",
+        "Population": "int64"
+    }
+)
 
 # rows for df_regions_coastal_custom
 row_eastcoast_north = df_states.loc[df_states["State"].isin(
