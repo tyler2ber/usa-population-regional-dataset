@@ -49,6 +49,10 @@ Here are the states in each region
 - Georgia
 - Florida
 
+*north*: Maine, New Hampshire, Vermont, Massachusetts, New York, Connecticut, Rhode Island, Pennsylvania, New Jersey, Maryland, Delaware, West Virginia, Virginia
+
+*south*: North Carolina, South Carolina, Georgia, Florida
+
 #### Great Lakes
 - Wisconsin
 - Illinois
