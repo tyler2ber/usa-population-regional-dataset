@@ -71,3 +71,11 @@ Here are the states in each region
 - Washington
 - Oregon
 - California
+
+## Population milestones
+Relevant to state additions, America used a map/build/move process for land: map the land, build on the land, and move to the land. States went from brand new areas to part of a larger region through phases:
+
+* **partial statehood**: 5,000 male residents
+* **full statehood**: 60,000 total residents
+
+Areas weren't considered states until reaching those population milestones. Settlerism, as Settler Property Theory (SPT), explains the process. It was made studying America. Here's an overview: https://docs.google.com/document/d/1HY_f2_q5IZrA1EyLss21L2W5vytYbSSvAqzO46vpFJ8/
