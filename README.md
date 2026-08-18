@@ -13,8 +13,6 @@ Here's info from the datasets
 | Gulf Coast | 62,392,003 |
 | West Coast | 51,034,834 |
 
-East Coast: 121,252,219 ... Great Lakes: 46,869,214 ... Gulf Coast: 62,392,003 ... West Coast: 51,034,834
-
 #### USA Population Regions (Coastal) w/ custom
 
 | Region | Population |
@@ -24,8 +22,6 @@ East Coast: 121,252,219 ... Great Lakes: 46,869,214 ... Gulf Coast: 62,392,003 .
 | Great Lakes | 46,869,214 |
 | Gulf Coast | 62,392,003 |
 | West Coast | 51,034,834 |
-
-East Coast north: 74,040,972 ... East Coast south: 47,211,247 ... Great Lakes: 46,869,214 ... Gulf Coast: 62,392,003 ... West Coast: 51,034,834
 
 ## States in each region
 Here are the states in each region
