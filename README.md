@@ -1,8 +1,8 @@
-# usa-population-regional-dataset
-Dataset of USA population by region (East Coast, Great Lakes, Gulf Coast, West Coast)
+# usa-population-region-dataset
+Dataset of the American population by region (East Coast, Great Lakes, Gulf Coast, West Coast, other)
 
 ## Datasets
-Here's info from the datasets
+Here's an overview of the datasets
 
 #### USA Population Regions (Coastal)
 
