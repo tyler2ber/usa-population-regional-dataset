@@ -46,6 +46,8 @@ Relevant to state additions, America used a map/build/move process for land: map
 * **partial statehood**: 5,000 male residents
 * **full statehood**: 60,000 total residents
 
+Areas weren't considered states until reaching those population milestones
+
 ## Developmental achievements
 There are multiple sectors for developmental achievements
 
