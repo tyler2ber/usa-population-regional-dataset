@@ -47,3 +47,18 @@ Relevant to state additions, America used a map/build/move process for land: map
 * **full statehood**: 60,000 total residents
 
 Areas weren't considered states until reaching those population milestones. Settlerism, as Settler Property Theory (SPT), explains the process. It was made studying America. Here's an overview: https://docs.google.com/document/d/1HY_f2_q5IZrA1EyLss21L2W5vytYbSSvAqzO46vpFJ8/ 
+
+## Developmental achievements
+There are multiple sectors for developmental achievements
+
+* **law:** judges/prosecutors/lawyers/cops for theft/fraud/violence
+* **property:** land/housing/items and business
+* **education:** reading/writing/math
+* **energy:** extraction/generation/transmission
+* **farm:** land/planting/machines
+* **factory:** materials/processing/production
+* **medical:** sanitation/treatment/emergency
+* **tech:** use/skilltraining/infrastructure
+
+Historically speaking, areas in the USA weren't considered states until reaching both population milestone and developmental achievement. It's summarized in Settlerism, as Settler Property Theory (SPT), found here:
+https://docs.google.com/document/d/1HY_f2_q5IZrA1EyLss21L2W5vytYbSSvAqzO46vpFJ8/
