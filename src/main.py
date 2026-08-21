@@ -1,5 +1,6 @@
 import pandas
 
+# ORGANIZE REGIONS
 regions = {
 
     # coastal
@@ -43,7 +44,7 @@ regions = {
         "California"
     ],
 
-    # coastal (custom)
+    # coastal(custom)
 
     "East Coast (north)": [
         "Maine",
@@ -68,7 +69,7 @@ regions = {
         "Florida"
     ],
 
-    # w/ other
+    # other
 
     "other": [
         "Alaska",
@@ -98,19 +99,20 @@ regions = {
 
 df_states = pandas.read_csv("dataset/usa-population-states.csv")
 
-# coastal
+# CREATE ROWS: coastal
 population_eastcoast = df_states.loc[df_states["State"].isin(regions["East Coast"]), "Population"].sum()
 population_greatlakes = df_states.loc[df_states["State"].isin(regions["Great Lakes"]), "Population"].sum()
 population_gulfcoast = df_states.loc[df_states["State"].isin(regions["Gulf Coast"]), "Population"].sum()
 population_westcoast = df_states.loc[df_states["State"].isin(regions["West Coast"]), "Population"].sum()
 
-# coastal (custom)
+# CREATE ROWS: coastal(custom)
 population_eastcoast_north = df_states.loc[df_states["State"].isin(regions["East Coast (north)"]), "Population"].sum()
 population_eastcoast_south = df_states.loc[df_states["State"].isin(regions["East Coast (south)"]), "Population"].sum()
 
-# w/ other
+# CREATE ROWS: other
 population_other = df_states.loc[df_states["State"].isin(regions["other"]), "Population"].sum()
 
+# CREATE DATAFRAME: regions
 df_population_regions = pandas.DataFrame(
     columns=[
         "Region",
@@ -130,6 +132,7 @@ df_population_regions.loc[len(df_population_regions)] = ["West Coast", populatio
 df_population_regions.to_csv("dataset/usa-population-regions.csv", index=False)
 print("✓ created usa-population-regions.csv")
 
+# CREATE DATAFRAME: regions[custom]
 df_population_regions_custom = pandas.DataFrame(
     columns=[
         "Region[custom]",
@@ -150,6 +153,7 @@ df_population_regions_custom.loc[len(df_population_regions_custom)] = ["West Coa
 df_population_regions_custom.to_csv("dataset/usa-population-regions_custom.csv", index=False)
 print("✓ created usa-population-regions_custom.csv")
 
+# CREATE DATAFRAME: regions[custom w/ other]
 df_population_regions_custom_other = pandas.DataFrame(
     columns=[
         "Region[custom w/ other]",
